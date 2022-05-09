@@ -79,11 +79,11 @@ namespace FPTS.FIT.BDRD.Services.Ordering.App.Application.Commands
             return dictionarySerializedIntegrationEvent;
         }
 
-        private string SerializeIntegrationEvent(IIntegrationEvent integrationEvent)
+      /*  private string SerializeIntegrationEvent(IIntegrationEvent integrationEvent)
         {
             string result = JsonSerializer.Serialize(integrationEvent);
             return result;
-        }
+        }*/
 
         private string GetGenaratedRequestId(string key)
         {
