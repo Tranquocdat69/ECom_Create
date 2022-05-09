@@ -1,0 +1,15 @@
+global using MediatR;
+global using Confluent.Kafka;
+global using Microsoft.EntityFrameworkCore;
+global using FPTS.FIT.BDRD.BuildingBlocks.EventBus;
+global using FPTS.FIT.BDRD.BuildingBlocks.EventBus.Core;
+global using FPTS.FIT.BDRD.BuildingBlocks.SharedKernel.Interfaces;
+global using FPTS.FIT.BDRD.BuildingBlocks.SharedKernel.Extensions;
+global using FPTS.FIT.BDRD.BuildingBlocks.Logger.Kafka;
+global using FPTS.FIT.BDRD.BuildingBlocks.Logger.Kafka.Configs;
+global using FPTS.FIT.BDRD.Services.Ordering.Domain.AggregateModels.OrderAggregate;
+global using FPTS.FIT.BDRD.Services.Ordering.Domain.AggregateModels.OrderAggregate.DomainEvents;
+global using FPTS.FIT.BDRD.Services.Ordering.App.Application.Commands;
+global using FPTS.FIT.BDRD.Services.Ordering.App.DTOs;
+global using FPTS.FIT.BDRD.Services.Ordering.Infrastructure;
+global using FPTS.FIT.BDRD.BuildingBlocks.EventBusKafka;
